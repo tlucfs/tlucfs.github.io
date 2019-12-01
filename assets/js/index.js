@@ -15,9 +15,9 @@
         this.loading = true;
 
         let data = new FormData();
-        data.append('entry.2042001299', this.message);
+        data.append('entry.1245888719', this.message);
 
-        fetch('https://docs.google.com/forms/d/e/1FAIpQLSfX7fHKOPFJwghITfOf81Tl0tNa5ilJzBLm9qptZpc8WDpADg/formResponse?embedded=true', {
+        fetch('https://docs.google.com/forms/d/e/1FAIpQLScyRPRwpse2Fv0E7xrXC2UZoIHbjxlBfZXya4smqz7hsGC1Cg/formResponse?embedded=true', {
           method: 'post',
           body: data
         }).finally(() => {
